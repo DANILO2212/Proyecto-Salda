@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1200px-Epic_Games_logo.svg.png" type="image/x-icon">
+</head>
+<body>
+
+    <style>
+        .juegos
+        {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            margin: 20px;
+            justify-content: center;
+            
+        }
+
+        .juegos p
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: gray;
+            border-radius: 10px;
+            color: white;
+        }
+        input
+        {
+            padding: 10px;
+        }
+
+        .pie
+        {
+            background-color: rgb(34, 33, 70);
+            margin: 20px;
+            color:  white;
+            font-size: 2vh;
+        }
+    </style>
+
+
+    <header>
+
+        
+        
+        <div style="display: flex;  align-items: center; justify-content: center; background-color: rgb(57, 57, 65);">
+            <img style="margin-right: 100px;"  width="100px" height="100px"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1200px-Epic_Games_logo.svg.png" alt="Epic games">
+                <label style="margin-right: 15px;" for="">Buscar:</label>
+            <input style="border-radius: 10px;" type="search" name="" id="">
+            <input style="margin-left: 25px;" type="submit" value="Buscar">
+            
+            
+        </div>
+        
+        <br>
+        
+    
+        <hr>    
+    </header>
+
+    <main>
+        <table id="destacados" border="1">
+            <thead>
+                <tr>
+                    <th style="background-color: rgb(42, 42, 75);" colspan="2"><h2>Juegos Destacados</h2></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="juegos" style="background: url(https://p4.wallpaperbetter.com/wallpaper/396/364/992/grand-theft-auto-grand-theft-auto-v-wallpaper-preview.jpg)">
+                            <img width="100px" height="100px" src="https://i.pinimg.com/originals/5b/ec/47/5bec474d275dbdf8fdb071f30fc978f4.png" alt="Grand Theft Auto V">
+                            <h1>Grand Theft Auto V</h1>
+                            <p>Juega como tres criminales muy diferentes que intentan llevar a cabo una serie de robos audaces en la ciudad de Los Santos.</p>
+                            <a style="margin-bottom: 10px;" href="gta5.html"><input type="submit" value="Ver"></a>
+
+                        </div>
+                    </td>
+                    <td> 
+                        <div class="juegos" style="background: url(https://assets.xboxservices.com/assets/3a/8e/3a8efad7-c509-4284-be37-d2f3387ac786.jpg?n=242352_Feature-Image-Priority-Full-Width-0_One_1248x702.jpg) center">
+                            <img width="200px" height="100px" src="https://upload.wikimedia.org/wikipedia/fr/thumb/9/9f/Hello_Neighbor_Logo.png/1200px-Hello_Neighbor_Logo.png" alt="Hello Neighbor">
+                            <h1>Hello Neighbor</h1>
+                            <p>Hello Neighbor es un videojuego de terror independiente del género de sigilo desarrollado por Dynamic Pixels y publicado por tinyBuild.</p>
+                            <a style="margin-bottom: 10px;" href="hn.html"><input type="submit" value="Ver"></a>
+                        </div> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="juegos" style="background: url(https://i.pinimg.com/originals/4c/08/9c/4c089cb1dffc903108ba5c4130b90184.png) center">
+                            <img width="200px" height="70px" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Detroit-become-human-logo.png" alt="">
+                            <h1>Detroit Become Human</h1>
+                            <p>Detroit 2038. La tecnología ha avanzado hasta tal punto que los androides humanoides están por todas partes. Hablan, se mueven y se comportan como seres humanos, pero no son más que máquinas que sirven a las personas.
+                            </p>
+                            <a style="margin-bottom: 10px;" href="proyectoLuis.html"><input type="submit" value="Ver"></a>
+                        </div>
+                        
+                    </td>
+                    
+                    <td>
+
+                        <div class="juegos" style="background: url(https://i.blogs.es/fa5ebb/fo3/840_560.jpg) center">
+                            <img width="50px" height="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM_NCXksfG05ynEeSnrD6wXytgsAzUtodfAA&usqp=CAU" alt="Fortnite">
+                            <h1>Fortnite</h1>
+                            <p>Crea, juega y combate gratis con amigos en Fortnite. Sé la última persona en pie en Batalla campal y Cero construcción, disfruta de un concierto o un evento en vivo o descubre más de un millón de juegos de creadores con carreras, parkour, supervivencia zombi y mucho más.</p>
+                            <a style="margin-bottom: 10px;" href="Proyecto_Teamo_Saldaña.html"><input type="submit" value="Ver"></a>
+                        </div>
+
+                        
+                    </td>
+                </tr>
+
+            </tbody>
+
+            <tfooter>
+                <tr>
+                    <td style="background-color: rgb(38, 53, 63);" colspan="2"><center><h2>Estos Juegos son los mas destacados durante esta semana</h2></center></td>
+                </tr>
+                
+                <td style="background-color: rgb(69, 101, 122);" colspan="3" class="alineacion-justificada">
+                    <center>
+                        <h3>Daniel Sierra Hernández</h3>
+                    <p>informacion de contacto <a href="mailto:sierradsni@gmail.com">Contacto</a> </p>
+                    </center>
+                    
+                </td >
+            </tfooter>
+
+        </table>
+
+    </main>
+
+    <footer>
+       
+        <center>
+            <div class="pie">
+                <h1>Acerca de</h1>
+                <br>
+                <p>Somos una organizacion dedicada al entretenimiento</p>
+            </div> 
+        </center>
+        
+
+    </footer>
+    
+</body>
+</html>
